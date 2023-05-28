@@ -1,0 +1,26 @@
+main {
+  max-width: 600px;
+  margin: 1rem auto;
+}
+
+.row {
+  display: flex;
+  gap: 1px;
+}
+
+.cell {
+  width: 1rem;
+  /* height:1rem; */
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.ON_COLOR {
+  background-color: red;
+}
+
+.OFF_COLOR {
+  background-color: grey;
+}
